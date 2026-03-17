@@ -80,8 +80,7 @@
 │           → Browser iframe (fallback)             │
 ├─────────────────────────────────────────────────┤
 │                  Hosting                         │
-│   AWS Lightsail (SaaS, multi-tenant)              │
-│   Docker Compose + Nginx + SSL                    │
+│   Cloud (SaaS, multi-tenant)                      │
 └─────────────────────────────────────────────────┘
 ```
 
