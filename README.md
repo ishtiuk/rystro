@@ -75,9 +75,9 @@
 │  PostgreSQL 15 (UUID PKs, tenant-scoped)      │
 ├───────────────────────────────────────────────┤
 │                  Printing                     │
-│  ESC/POS → WebUSB (Epson/Star)               │
-│          → Web Serial (Rongta/Xprinter)      │
-│          → Browser iframe (fallback)         │
+│  ESC/POS → WebUSB (Epson/Star)                │
+│          → Web Serial (Rongta/Xprinter)       │
+│          → Browser iframe (fallback)          │
 ├───────────────────────────────────────────────┤
 │                  Hosting                      │
 │  Cloud (SaaS, multi-tenant)                   │
