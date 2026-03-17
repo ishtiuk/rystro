@@ -60,28 +60,28 @@
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────┐
-│                   Frontend                       │
-│   React 18 + TypeScript + Vite + Tailwind        │
-│   shadcn/ui + PWA + IndexedDB image cache        │
-├─────────────────────────────────────────────────┤
-│              WebSocket / REST API                 │
-├─────────────────────────────────────────────────┤
-│                   Backend                        │
-│   FastAPI + SQLAlchemy (async) + Alembic          │
-│   JWT Auth + RBAC + Multi-tenant isolation        │
-├─────────────────────────────────────────────────┤
-│                  Database                        │
-│   PostgreSQL 15 (UUID PKs, tenant-scoped)         │
-├─────────────────────────────────────────────────┤
-│                  Printing                        │
-│   ESC/POS → WebUSB (Epson/Star)                   │
-│           → Web Serial (Rongta/Xprinter/CH340)    │
-│           → Browser iframe (fallback)             │
-├─────────────────────────────────────────────────┤
-│                  Hosting                         │
-│   Cloud (SaaS, multi-tenant)                      │
-└─────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────┐
+│                  Frontend                     │
+│  React 18 + TypeScript + Vite + Tailwind      │
+│  shadcn/ui + PWA + IndexedDB image cache      │
+├───────────────────────────────────────────────┤
+│             WebSocket / REST API              │
+├───────────────────────────────────────────────┤
+│                  Backend                      │
+│  FastAPI + SQLAlchemy (async) + Alembic       │
+│  JWT Auth + RBAC + Multi-tenant isolation     │
+├───────────────────────────────────────────────┤
+│                  Database                     │
+│  PostgreSQL 15 (UUID PKs, tenant-scoped)      │
+├───────────────────────────────────────────────┤
+│                  Printing                     │
+│  ESC/POS → WebUSB (Epson/Star)               │
+│          → Web Serial (Rongta/Xprinter)      │
+│          → Browser iframe (fallback)         │
+├───────────────────────────────────────────────┤
+│                  Hosting                      │
+│  Cloud (SaaS, multi-tenant)                   │
+└───────────────────────────────────────────────┘
 ```
 
 ---
