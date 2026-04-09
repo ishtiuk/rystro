@@ -107,7 +107,7 @@
 
 <div align="center">
 
-  Built & maintained by **[Md. Ishtiuk Ahammed](https://github.com/ishtiuk)** — Founder & CTO of **[Archexify](https://facebook.com/archexify)**
+  Built & maintained by **[Md. Ishtiuk Ahammed](https://github.com/ishtiuk)**
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:f59e0b,100:ea580c&height=80&section=footer" width="100%" />
 
